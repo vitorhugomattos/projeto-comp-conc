@@ -3,7 +3,7 @@
 build dist/main:
 	rm -rf dist/
 	mkdir dist/
-	gcc src/main.c src/sequencial/merge.c src/sequencial/mergesort.c -o dist/main
+	gcc src/main.c -o dist/main -pthread -lm
 	chmod +x dist/main
 
 run start: dist/main

@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "pthread.h": "c",
-        "random": "c",
-        "mergesort.h": "c",
-        "stdio.h": "c"
-    }
-}
